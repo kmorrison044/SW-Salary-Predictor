@@ -1,2 +1,4 @@
-# SW_Salary_Predictor_W_PCA
-I continue my work in my previous SW engineering salary predictor by reducing the dimensionality of the feature space using Principal Component Analysis. This will help algorithms that suffer from the curse of dimensionality. It will also help decorrelate the feature space so that the model will stay balanced.
+# SW_Salary_Predictor
+It is a common occurrence for job seekers to find jobs on job listing sites such as Indeed, Linkedin, etc. to look for their future employer. An issue with some of these job postings is that the salary expectation is not given in the posting, leaving job seekers blind to what the employer is expecting to pay for the job. This can be an issue for candidates who land interviews, just to find out that their and the employers salary expectations were vastly different, effectively wasting the time of both the candidate and employer.
+
+Using the salary data from the kaggle dataset, I will engineer features and use them to predict SW engineering salaries to help combat this problem. In this project, I utilize several machine learning models to determine the best method to predict salaries when salary information is not available in job postings.
